@@ -1,0 +1,141 @@
+.ProjectWrap {
+    width: 100%;
+    min-height: 200px;
+    /* background: rgba(0, 0, 255, 0.11); */
+    display: flex;
+    flex-direction: column;
+}
+
+.ProjectWrap>div {
+    width: 100%;
+}
+
+.projectHead {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(201, 201, 201);
+}
+
+.projectHead h4 {
+    font-size: 1rem;
+}
+
+.projectBody {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.projectOption {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.projectOption>* {
+    font-size: 0.8rem;
+}
+
+.projectOption p {
+    margin-right: 5px;
+}
+
+.projectOption span {
+    margin: 3px 3px;
+    padding: 5px 7px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: rgb(212, 212, 212);
+}
+
+.projectContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+.projectBoxWrap {
+    width: 100%;
+    min-height: 200px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.096), -2px -2px 5px rgba(0, 0, 0, 0.096);
+    margin: 5px 0px;
+}
+
+
+.projectBoxHead {
+    width: 40%;
+    min-width: 200px;
+    text-align: left;
+    padding: 7px 0px;
+    border-bottom: 1px solid rgb(201, 201, 201);
+}
+
+.projectBoxHead h6 {
+    font-size: 0.8rem;
+}
+
+.projectBoxBody {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 5px;
+}
+
+.projectBoxSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.projectBoxSection h6 {
+    font-size: 0.8rem;
+    padding: 2px 0px;
+}
+
+.projectBoxSection p {
+    font-size: 0.7rem;
+    line-height: 1rem;
+}
+
+.projectBoxButton {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.projectBoxButton>button {
+    font-size: 0.8rem;
+    margin: 5px;
+    padding: 4px 5px;
+    border: none;
+    user-select: none;
+    cursor: pointer;
+}

@@ -1,0 +1,35 @@
+* {
+  /* font-size: 16px; */
+  margin: 0;
+  padding: 0;
+  font-family: "Nanum Gothic Coding", monospace;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(230, 230, 230);
+}
+
+.Container {
+  width: 100%;
+  max-width: 1200px;
+  min-height: 1300px;
+  /* min-height: 980px; */
+  background: white;
+}
+
+.containerHead {
+  width: 100%;
+}
+
+.containerBody {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  padding-bottom: 200px;
+}
+

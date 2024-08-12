@@ -1,0 +1,95 @@
+.ProfileWrap {
+    width: 100%;
+    min-height: 200px;
+    /* background: rgba(0, 0, 255, 0.11); */
+    display: flex;
+    flex-direction: column;
+}
+
+.ProfileWrap>div {
+    width: 100%;
+}
+
+.profileHead {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(201, 201, 201);
+}
+
+.profileHead h4 {
+    font-size: 1rem;
+}
+
+.profileBody {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.profileContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.profileContentTitle {
+    width: 40%;
+    min-width: 200px;
+    text-align: left;
+    padding: 5px;
+    box-sizing: border-box;
+    /* background: rgb(198, 221, 230); */
+    /* border-bottom: 1px solid rgb(201, 201, 201); */
+}
+
+.profileContentText {
+    width: 100%;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.profileContentText p {
+    font-size: 0.7rem;
+    line-height: 1rem;
+}
+
+.profileContentTextBox {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.profileContentTextSection {
+    margin: 3px 3px;
+    padding: 5px 7px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    /* background: rgb(212, 212, 212); */
+    background: rgb(166, 206, 221);
+}
+
+.profileContentTextSection h6 {
+    font-size: 0.8rem;
+    font-weight: normal;
+}
+
+.profileContentTextSection p {
+    font-size: 0.8rem;
+}
+
+.profileContentTextPlus {
+    margin-top: 5px;
+    width: 100%;
+    text-align: left;
+}
+
+.profileContentTextPlus>* {
+    font-size: 0.8rem;
+    font-weight: normal;
+}

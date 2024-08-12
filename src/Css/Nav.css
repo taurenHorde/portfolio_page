@@ -1,0 +1,39 @@
+.NavWrap {
+    width: 100%;
+    background: rgba(255, 0, 0, 0.062);
+}
+
+.navBody {
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navContent {
+    padding: 0px 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navContent h6 {
+    font-size: 1.2rem;
+}
+
+.navContent span {
+    font-size: 1rem;
+    margin-left: 5px;
+}
+
+.navContent p {
+    font-size: 1.1rem;
+    margin-right: 1rem;
+}
+
+.navContent>* {
+    cursor: pointer;
+    user-select: none;
+}

@@ -1,0 +1,189 @@
+.ProjectPageWrap {
+    width: 100%;
+    min-height: 200px;
+}
+
+.projectContain {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.projectContain>div {
+    width: 100%;
+}
+
+/*  HeadHeadHeadHeadHeadHeadHeadHeadHeadHeadHeadHead Start*/
+
+.projectPageHead {
+    padding: 10px 0px;
+    border-bottom: 1px solid rgb(201, 201, 201);
+}
+
+.projectPageTitle {
+    padding: 4px 0px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.projectPageTitle h6 {
+    font-size: 1.1rem;
+    /* font-weight: normal; */
+    margin-bottom: 5px;
+}
+
+.projectPageTitle p {
+    font-size: 0.8rem;
+}
+
+.projectPageNavi {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.projectPageNavi button {
+    font-size: 0.8rem;
+    padding: 0px 5px;
+    margin-left: 5px;
+}
+
+/*  HeadHeadHeadHeadHeadHeadHeadHeadHeadHeadHeadHead End*/
+/*  BodyBodyBodyBodyBodyBodyBodyBodyBodyBodyBodyBody Start*/
+
+.projectPageBody {
+    width: 100%;
+    min-height: 200px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+
+
+/* 공통 시작 */
+.projectPageSection {
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.sectionHead {
+    width: 100%;
+    text-align: left;
+    padding: 5px 0px;
+}
+
+.sectionHead h6 {
+    font-size: 1rem;
+    /* font-weight: normal; */
+    background: rgb(255, 255, 231);
+    padding: 5px 0px;
+}
+
+.sectionBody {
+    width: 100%;
+    padding: 2px 0px;
+}
+
+.sectionUl {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    list-style: none;
+}
+
+
+.sectionUl li {
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.sectionUl h6 {
+    font-size: 0.9rem;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.sectionUl p {
+    font-size: 0.9rem;
+    text-align: left;
+    margin-top: 5px;
+}
+
+
+
+/* 공통 끝 */
+/* Outline 고유 */
+
+.sectionUl .tree {
+    color: blue;
+    user-select: none;
+    cursor: pointer;
+}
+
+/* Function 고유 */
+
+.functionOption {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.functionOption p {
+    font-size: 0.8rem;
+    margin: 3px 3px;
+    padding: 5px 7px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+    cursor: pointer;
+    user-select: none;
+}
+
+.functionContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 5px 0px;
+    margin-top: 10px;
+    background: rgba(135, 207, 235, 0.158);
+}
+
+.functionContent>div {
+    margin: 5px 0px;
+    text-align: left;
+}
+
+.functionContent>div h6 {
+    font-size: 0.9rem;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.functionContent>div p {
+    font-size: 0.8rem;
+    line-height: 1rem;
+}
+
+.functionHow {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.functionHow p,
+.functionThinking p {
+    margin: 5px 0px;
+}
