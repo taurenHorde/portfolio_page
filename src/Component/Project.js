@@ -10,7 +10,7 @@ function Project() {
             <div className='projectHead'>
                 <h4>Project _</h4>
             </div>
-            <div className='projectOption'>
+            {/* <div className='projectOption'>
                 <p>Filter -</p>
                 {[
                     "Javascript",
@@ -32,7 +32,7 @@ function Project() {
                 ].map((val, idx) =>
                     <span key={idx}>{val}</span>
                 )}
-            </div>
+            </div> */}
             <div className='projectContent'>
                 {projectData.map((val, idx) => {
                     return (<div

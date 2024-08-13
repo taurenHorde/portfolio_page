@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <div className='Container'>
         <div className='containerHead'>
-          <Nav />
+          {/* <Nav /> */}
         </div>
         <div className='containerBody'>
           <Routes>
