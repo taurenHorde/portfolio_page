@@ -166,6 +166,18 @@ function ProjectPage7() {
                     </div>
                 </div >
                 {/* ---------------- */}
+                < div className='projectPageConsideration projectPageSection' >
+                    <div className='considerationHead sectionHead'>
+                        <h6>Currnet Jop</h6>
+                    </div>
+                    <div className='considerationBody sectionBody'>
+                        <ul className='sectionUl'>
+                            <li>
+                                <p>- 현재 타입 좁히기 , 타입 가드등을 사용하여 서버에서 받은 데이터에 타입 지정 작업을 하고 있습니다.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div >
             </div >
             {/* --------Footer------ */}
             < div className='projectPageFooter' >

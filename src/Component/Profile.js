@@ -52,6 +52,20 @@ function Profile() {
                         <p>React-Native ,Next.js, 관계형 DB 그리고 CS지식등 공부하고 있습니다.</p>
                     </div>
                 </div>
+
+                <div className='profileContent'>
+                    <div className='profileContentTitle'>
+                        <p>I will</p>
+                    </div>
+                    <div className='profileContentText'>
+                        <p>
+                            - 프론트엔드 개발자 희망하며 더 나아가 풀스택 개발자가 될 수 있도록 노력하겠습니다.
+                        </p>
+                        <p>
+                            - 급변하는 개발 시장에 맞쳐 항상 대비, 공부하여 기여 할 수 있는 개발자가 되겠습니다.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div >
     )
