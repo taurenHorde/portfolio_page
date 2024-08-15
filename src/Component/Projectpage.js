@@ -270,7 +270,15 @@ function ProjectPage6() {
                     </div>
                     <div className='youtubeBody sectionBody'>
                         <div className='youtubeBox'>
-
+                            <iframe
+                                className='iframeTube'
+                                src="https://www.youtube.com/embed/M4-l7xbbEH8"
+                                title="포트폴리오6"
+                                // frameBorder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerPolicy="strict-origin-when-cross-origin"
+                                allowfullScreen>
+                            </iframe>
                         </div>
                     </div>
                 </div >
@@ -335,7 +343,7 @@ function ProjectPage5() {
     }
     return (
         <div className='projectContain'>
-           
+
             {/* -------- Head -------- */}
             <div className='projectPageHead'>
                 <div className='projectPageTitle'>
@@ -412,7 +420,14 @@ function ProjectPage5() {
                     </div>
                     <div className='youtubeBody sectionBody'>
                         <div className='youtubeBox'>
-
+                            <iframe
+                                src="https://www.youtube.com/embed/zeX2BVDARNs"
+                                title="포트폴리오5"
+                                // frameBorder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerPolicy="strict-origin-when-cross-origin"
+                                allowfullScreen>
+                            </iframe>
                         </div>
                     </div>
                 </div >

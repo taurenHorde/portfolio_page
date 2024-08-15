@@ -154,6 +154,7 @@ let ProjectBox = createSlice({
             </div>
           </div>
           <div className='projectBoxButton'>
+            <button onClick={() => linkBlank(`https://www.youtube.com/embed/M4-l7xbbEH8`)}>Youtube</button>
             <button onClick={() => navigate('/project/baseball_team')}>자세히보기</button>
             <button onClick={() => linkBlank(`https://github.com/taurenHorde/baseball_front`)}>GitHub(front)</button>
             <button onClick={() => linkBlank(`https://github.com/taurenHorde/baseball_back`)}>GitHub(back)</button>
@@ -211,6 +212,7 @@ let ProjectBox = createSlice({
             </div>
           </div>
           <div className='projectBoxButton'>
+            <button onClick={() => linkBlank(`https://www.youtube.com/embed/zeX2BVDARNs`)}>Youtube</button>
             <button onClick={() => navigate('/project/baseball_diary')}>자세히보기</button>
             <button onClick={() => linkBlank(`https://web-diary-front-lyol1hka657e54ef.sel5.cloudtype.app/login`)}>사이트</button>
           </div>
@@ -254,6 +256,7 @@ let ProjectBox = createSlice({
             </div>
           </div>
           <div className='projectBoxButton'>
+            <button onClick={() => linkBlank(`https://www.youtube.com/embed/okJ1FB7gnCk`)}>Youtube</button>
             <button onClick={() => linkBlank(`https://github.com/taurenHorde/pokemon`)}>GitHub(front)</button>
             <button onClick={() => linkBlank(`https://taurenhorde.github.io/pokemon/`)}>사이트</button>
           </div>
