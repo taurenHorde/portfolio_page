@@ -1,6 +1,5 @@
 .ProjectWrap {
     width: 100%;
-    min-height: 200px;
     /* background: rgba(0, 0, 255, 0.11); */
     display: flex;
     flex-direction: column;
@@ -71,7 +70,6 @@
 
 .projectBoxWrap {
     width: 100%;
-    min-height: 200px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;

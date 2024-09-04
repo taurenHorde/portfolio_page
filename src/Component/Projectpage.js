@@ -363,7 +363,7 @@ function ProjectPage5() {
                     <p>야구 직관기록을 남기는 사이트</p>
                 </div>
                 <div className='projectPageNavi'>
-                    <button onClick={() => linkBlank(`https://web-diary-front-lyol1hka657e54ef.sel5.cloudtype.app/login`)}>사이트가기</button>
+                    <p>서버 관계상 페이지를 내렸습니다.</p>
                 </div >
             </div >
 

@@ -8,35 +8,66 @@ let ProjectBox = createSlice({
   // 메인페이지 프로젝트 박스 - 
   name: 'Projectbox',
   initialState: [
+    function ProjectBox9() {
+      function linkBlank(url) {
+        window.open(`${url}`, '_blank', 'noopener,noreferrer')
+      }
+      return (
+        <>
+          <div className='projectBoxHead'>
+            <div className='projectBoxTitle'>
+              <h6>기능 단위 구현 페이지(틈틈히 진행 중)</h6>
+            </div>
+          </div>
+          <div className='projectBoxBody'>
+            <div className='projectBoxSection'>
+              <h6>1. React-window를 통한 무한 가로스크롤 달력 구현</h6>
+              <p>React-window를 통하여 무한 가로스크롤 구현 </p>
+            </div>
+            <div className='projectBoxSection'>
+              <h6>2. useMemo를 통한 최적화</h6>
+              <p>프로젝트 8번 이후 진행 예정</p>
+            </div>
+          </div>
+          <div className='projectBoxButton'>
+            <button onClick={() => linkBlank(`https://taurenhorde.github.io/functionPage/`)}>사이트</button>
+            <button onClick={() => linkBlank(`https://github.com/taurenHorde/function_test`)}>GitHub</button>
+
+          </div>
+        </>
+      )
+    },
     function ProjectBox8() {
       return (
         <>
           <div className='projectBoxHead'>
             <div className='projectBoxTitle'>
-              <h6>길드 일정 공유 앱 _8  (진행예정)</h6>
+              <h6>66일 습관 만들기 _8  (진행중 | 0904시작 ~)</h6>
             </div>
           </div>
           <div className='projectBoxBody'>
             <div className='projectBoxSection'>
               <h6>Description</h6>
-              <p>길드 행사 일정 알림 및 참여 여부 확인 앱</p>
+              <p>만들고 싶은 습관을 설정하여 매일매일 기록 하는 앱/웹 </p>
             </div>
             <div className='projectBoxSection'>
               <h6>Language / Library (예상)</h6>
-              <p>React NativeNode.js Express MySQL/MariaDB</p>
+              <p>React Native / 백엔드는 현재 고민 중입니다.</p>
             </div>
             <div className='projectBoxSection'>
               <h6>Function(예상)</h6>
-              <p>ㆍreact-calender 라이브러리를 통한 달력 구현</p>
-              <p>ㆍ일정 생성 및 삭제 기능</p>
-              <p>ㆍ참여 신청 및 수락 및 거절 기능</p>
-              <p>ㆍ일정 생성 자가 신청인원에게 쪽지 기능 구현 등등</p>
+              <p>ㆍreact-calender 라이브러리를 통한 달력 구현 및 react-window를 통한 무한 가로 달력 구현 (기능 단위 구현 페이지 1번)</p>
+              <p>ㆍ카카오 API 와 구글 API를 통한 로그인 서비스 구현</p>
+              <p>ㆍ친구 추가 및 삭제등 친구 서비스 구현</p>
+              <p>ㆍ매일 아침 7시에 전 일 챌린지 결과를 친구들에게 전달 기능 구현 (동기부여 확장)</p>
+              <p>ㆍ계속 수정 예정</p>
             </div>
             <div className='projectBoxSection'>
               <h6>Goal</h6>
-              <p>ㆍreact-calender 라이브러리를 통한 달력 구현이나 신청을 통한 수락 및 거절은 앞선 Baseball Team에서 구현했던 기능이지만 한번도 사용 안해봤던 React-Native와 MySQL/MariaDB를 사용할 예정</p>
+              <p>ㆍ큰 범위는 react-calendar / 적은 범위는 react-window(가로달력)을 통해 이용자에게 데이터 보여주기 구현 </p>
               <p>ㆍReact-Native의 기초적인 부분을 습득하고 더 나아가 웹앱 / 네이티브앱 / 하이브리드앱의 각각의 특징를 파악하기.</p>
-              <p>ㆍ많은 서비스에서 사용되고 있는 관계형 DB(MySQL/MariaDB)를 배워보고 관계형DB와 문서형DB 등 각 DB의 특징과 차이를 몸소 경험해보기.</p>
+              <p>ㆍReact-Native으로 앱 제작 후 Flutter와 비교하여 고찰 해보기 </p>
+              <p>ㆍ계속 수정 예정</p>
             </div>
           </div>
         </>
@@ -214,7 +245,6 @@ let ProjectBox = createSlice({
           <div className='projectBoxButton'>
             <button onClick={() => linkBlank(`https://www.youtube.com/embed/zeX2BVDARNs`)}>Youtube</button>
             <button onClick={() => navigate('/project/baseball_diary')}>자세히보기</button>
-            <button onClick={() => linkBlank(`https://web-diary-front-lyol1hka657e54ef.sel5.cloudtype.app/login`)}>사이트</button>
           </div>
         </>
       )
