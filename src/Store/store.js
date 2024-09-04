@@ -241,6 +241,12 @@ let ProjectBox = createSlice({
               <h6>Consideration</h6>
               <p>ㆍ구현 한 기능들을 더 합리적이게 바꿀 순 없는지 생각</p>
             </div>
+            <div className='projectBoxSection'>
+              <h6 style={{color:'red'}}>알림</h6>
+              <p style={{color:'red'}}>ㆍ프로젝트 내 구현한 기능이 프로젝트6(Baseball Team)이랑 겹칩니다.</p>
+              <p style={{color:'red'}}>ㆍ서버 사정상, 페이지는 내렸습니다. 구현 영상은 유튜브 영상을 통하여 볼 수 있습니다.</p>
+              <p style={{color:'red'}}>ㆍ서버 사정상, 페이지는 내렸습니다. 코드는 GitHub을 통해 볼 수 있습니다.</p>
+            </div>
           </div>
           <div className='projectBoxButton'>
             <button onClick={() => linkBlank(`https://www.youtube.com/embed/zeX2BVDARNs`)}>Youtube</button>
