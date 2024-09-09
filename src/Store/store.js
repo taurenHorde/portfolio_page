@@ -1,6 +1,7 @@
 import { configureStore, createSlice } from '@reduxjs/toolkit'
 import { useNavigate } from 'react-router-dom'
 import CodeBlock from './../Component/Code';
+import { useState } from 'react';
 
 
 
@@ -8,7 +9,7 @@ let ProjectBox = createSlice({
   // 메인페이지 프로젝트 박스 - 
   name: 'Projectbox',
   initialState: [
-    function ProjectBox9() {
+    function ProjectBox10() {
       function linkBlank(url) {
         window.open(`${url}`, '_blank', 'noopener,noreferrer')
       }
@@ -37,12 +38,37 @@ let ProjectBox = createSlice({
         </>
       )
     },
+    function ProjectBox9() {
+      return (
+        <>
+          <div className='projectBoxHead'>
+            <div className='projectBoxTitle'
+            >
+              <h6>Next.js</h6>
+            </div>
+          </div>
+          <div
+            className='projectBoxBody'
+          >
+            <div className='projectBoxSection'>
+              <h6>Description (예정)</h6>
+              <p>Next.js를 사용하여 간단한 퀴즈 제공 및 기록을 남기는 사이트.</p>
+            </div>
+          </div>
+
+        </>
+      )
+    },
     function ProjectBox8() {
+      const navigate = useNavigate()
+      function linkBlank(url) {
+        window.open(`${url}`, '_blank', 'noopener,noreferrer')
+      }
       return (
         <>
           <div className='projectBoxHead'>
             <div className='projectBoxTitle'>
-              <h6>66일 습관 만들기 _8  (진행중 | 0904시작 ~)</h6>
+              <h6>66일 습관 만들기 _ (작업중)</h6>
             </div>
           </div>
           <div className='projectBoxBody'>
@@ -52,7 +78,7 @@ let ProjectBox = createSlice({
             </div>
             <div className='projectBoxSection'>
               <h6>Language / Library (예상)</h6>
-              <p>React Native / 백엔드는 현재 고민 중입니다.</p>
+              <p>React Native / Node.js / MongoDB / Express</p>
             </div>
             <div className='projectBoxSection'>
               <h6>Function(예상)</h6>
@@ -69,6 +95,9 @@ let ProjectBox = createSlice({
               <p>ㆍReact-Native으로 앱 제작 후 Flutter와 비교하여 고찰 해보기 </p>
               <p>ㆍ계속 수정 예정</p>
             </div>
+          </div>
+          <div className='projectBoxButton'>
+            <button onClick={() => linkBlank(`https://github.com/taurenHorde/MakingHabit`)}>GitHub</button>
           </div>
         </>
       )
@@ -242,10 +271,10 @@ let ProjectBox = createSlice({
               <p>ㆍ구현 한 기능들을 더 합리적이게 바꿀 순 없는지 생각</p>
             </div>
             <div className='projectBoxSection'>
-              <h6 style={{color:'red'}}>알림</h6>
-              <p style={{color:'red'}}>ㆍ프로젝트 내 구현한 기능이 프로젝트6(Baseball Team)이랑 겹칩니다.</p>
-              <p style={{color:'red'}}>ㆍ서버 사정상, 페이지는 내렸습니다. 구현 영상은 유튜브 영상을 통하여 볼 수 있습니다.</p>
-              <p style={{color:'red'}}>ㆍ서버 사정상, 페이지는 내렸습니다. 코드는 GitHub을 통해 볼 수 있습니다.</p>
+              <h6 style={{ color: 'red' }}>알림</h6>
+              <p style={{ color: 'red' }}>ㆍ프로젝트 내 구현한 기능이 프로젝트6(Baseball Team)이랑 겹칩니다.</p>
+              <p style={{ color: 'red' }}>ㆍ서버 사정상, 페이지는 내렸습니다. 구현 영상은 유튜브 영상을 통하여 볼 수 있습니다.</p>
+              <p style={{ color: 'red' }}>ㆍ서버 사정상, 페이지는 내렸습니다. 코드는 GitHub을 통해 볼 수 있습니다.</p>
             </div>
           </div>
           <div className='projectBoxButton'>

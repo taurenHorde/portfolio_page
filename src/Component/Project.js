@@ -38,6 +38,7 @@ function Project() {
                     return (<div
                         className='projectBoxWrap'
                         key={idx}
+                        style={{ background: idx === 1 ? 'rgba(255,0,0,0.1)' : 'white' }}
                     >
                         {val()}
                     </div>)
